@@ -1,0 +1,3 @@
+2. Given a 20-bit frame and bit-error-rate p in communication. What is the probability that the frame has no error? What is the probability of 1-bit errors?
+Answer: The probability that the frame has no error is (1-p)^20
+         probability of 1-bit error is p
