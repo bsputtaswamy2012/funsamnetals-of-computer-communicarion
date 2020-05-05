@@ -1,0 +1,2 @@
+Give two features that the data link layer and transport layer have in common, and further give two features in which they differ.
+Answer: Both layers can provide recovery from transmission errors,flow control and support multiplexing.
