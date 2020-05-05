@@ -1,0 +1,8 @@
+5. How does the network layer in a connection-oriented packet-switching network differ from the network layer in a connectionless packet-switching network?
+Network layer in as connectionless packet switched network:
+1.	Each packet is independent of all others, includes complete addressing information, and may follow a path different than the other packets in the same message. The network layer doesn't guarantee delivery of each packet, and doesn't promise to deliver them in the same order. The packets in the network layer are known as datagram.
+2.	Each router knows something about how to further the progress of each packet, and it makes its decision by looking at the destination address contained in the packet. 
+3.	The programmers interface to a datagram subnet is quite simple: send_packet() and receive_packet()
+Network layer in as connection-oriented packet switched network:
+1.	A connection is established between end-point network layers, quality of service parameters, cost, speed can be negotiated, then data can be reliably sent. All packets take the same path. The connections are known as virtual circuits.
+2.	Each virtual circuit is uniquely identified by being given a number in each router. Each packet of data has the virtual circuit identified in it, so the routers know how to pass the packet along. The virtual circuits are released and the identifiers are freed when the circuit is torn down.
