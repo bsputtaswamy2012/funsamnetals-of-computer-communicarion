@@ -1,0 +1,4 @@
+Which OSI layer is responsible for (a) determining the best path to route packets; (b) providing end-to-end reliable communications; (c) providing node-to-node reliable communications?
+Answer: a) Network Layer
+        b) Transport Layer
+        c) Data Link Layer
